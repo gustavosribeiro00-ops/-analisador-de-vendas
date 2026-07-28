@@ -18,3 +18,18 @@ Este projeto é uma ferramenta desenvolvida em Python para análise de métricas
    ```bash
    git clone ```bash
 git clone https://github.com/gustavosribeiro00-ops/-analisador-de-vendas.git
+
+---
+## 📊 Projeto 2: Calculadora de Métricas Estatísticas (`calculadora_metricas.py`)
+
+Script em Python voltado para o cálculo de métricas estatísticas de faturamento diário e análise de dispersão de vendas.
+
+### 🎯 Funcionalidades:
+- Cálculo do total vendido e contagem de transações.
+- Cálculo do Ticket Médio.
+- Identificação do maior e menor valor registrado (`max()` e `min()`).
+- Cálculo da **Amplitude Financeira** (diferença entre o pico e o menor valor do dia).
+
+### 🧪 Como Executar:
+```bash
+py calculadora_metricas.py
