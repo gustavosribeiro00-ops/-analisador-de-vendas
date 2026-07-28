@@ -24,4 +24,3 @@ Script em Python voltado para o cálculo de métricas estatísticas de faturamen
 ### 🧪 Como Executar:
 ```bash
 py calculadora_metricas.py
-
