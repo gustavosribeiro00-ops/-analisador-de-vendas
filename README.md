@@ -21,6 +21,17 @@ Script em Python voltado para o cálculo de métricas estatísticas de faturamen
 - Identificação do maior e menor valor registrado (`max()` e `min()`).
 - Cálculo da **Amplitude Financeira** (diferença entre o pico e o menor valor do dia).
 
+---
+
+## 🧹 Projeto 3: Limpador de Dados de Vendas (`limpador_dados.py`)
+
+Script em Python focado na sanitização e tratamento de dados corrompidos ou ausentes em listas de faturamento.
+
+### 🎯 Funcionalidades:
+- Filtragem de valores nulos (`None`), zerados e negativos.
+- Contagem e cálculo de registros descartados durante o saneamento.
+- Cálculo do faturamento consolidado apenas com vendas válidas.
+
 ### 🧪 Como Executar:
 ```bash
 py calculadora_metricas.py
