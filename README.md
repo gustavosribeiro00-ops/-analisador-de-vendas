@@ -32,6 +32,16 @@ Script em Python focado na sanitização e tratamento de dados corrompidos ou au
 - Contagem e cálculo de registros descartados durante o saneamento.
 - Cálculo do faturamento consolidado apenas com vendas válidas.
 
+---
+
+## 📊 Projeto 4: Processador de Arquivos CSV (`analisador_csv.py`)
+
+Script em Python para leitura e agregação automatizada de dados de faturamento a partir de arquivos externos `.csv`.
+
+### 🎯 Funcionalidades:
+- Leitura dinâmica de tabelas `.csv` com a biblioteca nativa `csv`.
+- Agrupamento e soma acumulada do faturamento por categoria de produto.
+
 ### 🧪 Como Executar:
 ```bash
-py calculadora_metricas.py
+py analisador_csv.py
