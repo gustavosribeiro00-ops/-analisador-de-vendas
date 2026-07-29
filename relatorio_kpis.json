@@ -1,0 +1,12 @@
+{
+    "status_processamento": "sucesso",
+    "total_faturamento": 3060.4,
+    "total_transacoes": 6,
+    "ticket_medio": 510.07,
+    "categoria_mais_lucrativa": "Eletrônicos",
+    "detalhamento_por_categoria": {
+        "Eletrônicos": 2300.0,
+        "Vestuário": 550.0,
+        "Alimentos": 210.4
+    }
+}
