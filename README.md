@@ -43,5 +43,19 @@ Script em Python para leitura e agregação automatizada de dados de faturamento
 - Agrupamento e soma acumulada do faturamento por categoria de produto.
 
 ### 🧪 Como Executar:
+
+---
+
+## 📈 Projeto 5: Processador de KPIs com Tratamento de Erros (`gerador_kpis.py`)
+
+Script em Python para cálculo automatizado de indicadores estratégicos (KPIs) com tratamento preventivo de exceções e exportação em formato JSON.
+
+### 🎯 Funcionalidades:
+- Tratamento resiliente de erros com `try/except` para arquivos ausentes ou corrompidos.
+- Apuração de métricas de negócio: Faturamento Total, Ticket Médio e Categoria Mais Lucrativa.
+- Exportação automatizada dos KPIs estruturados em arquivo `relatorio_kpis.json`.
+
+### 🧪 Como Executar:
+
 ```bash
 py analisador_csv.py
