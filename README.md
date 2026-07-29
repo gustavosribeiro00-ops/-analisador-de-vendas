@@ -41,9 +41,6 @@ Script em Python para leitura e agregação automatizada de dados de faturamento
 ### 🎯 Funcionalidades:
 - Leitura dinâmica de tabelas `.csv` com a biblioteca nativa `csv`.
 - Agrupamento e soma acumulada do faturamento por categoria de produto.
-
-### 🧪 Como Executar:
-
 ---
 
 ## 📈 Projeto 5: Processador de KPIs com Tratamento de Erros (`gerador_kpis.py`)
