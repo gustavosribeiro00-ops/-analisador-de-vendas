@@ -20,6 +20,9 @@ Script em Python voltado para o cálculo de métricas estatísticas de faturamen
 - Cálculo do Ticket Médio.
 - Identificação do maior e menor valor registrado (`max()` e `min()`).
 - Cálculo da **Amplitude Financeira** (diferença entre o pico e o menor valor do dia).
+### 🧪 Como Executar:
+```bash
+py calculadora_metricas.py
 
 ---
 
@@ -31,7 +34,9 @@ Script em Python focado na sanitização e tratamento de dados corrompidos ou au
 - Filtragem de valores nulos (`None`), zerados e negativos.
 - Contagem e cálculo de registros descartados durante o saneamento.
 - Cálculo do faturamento consolidado apenas com vendas válidas.
-
+### 🧪 Como Executar:
+```bash
+py limpador_dados.py
 ---
 
 ## 📊 Projeto 4: Processador de Arquivos CSV (`analisador_csv.py`)
@@ -41,6 +46,9 @@ Script em Python para leitura e agregação automatizada de dados de faturamento
 ### 🎯 Funcionalidades:
 - Leitura dinâmica de tabelas `.csv` com a biblioteca nativa `csv`.
 - Agrupamento e soma acumulada do faturamento por categoria de produto.
+### 🧪 Como Executar:
+```bash
+py analisador_csv.py
 
 ---
 
@@ -52,6 +60,9 @@ Script em Python para cálculo automatizado de indicadores estratégicos (KPIs) 
 - Tratamento resiliente de erros com `try/except` para arquivos ausentes ou corrompidos.
 - Apuração de métricas de negócio: Faturamento Total, Ticket Médio e Categoria Mais Lucrativa.
 - Exportação automatizada dos KPIs estruturados em arquivo `relatorio_kpis.json`.
+### 🧪 Como Executar:
+```bash
+py
 
 ---
 
@@ -67,3 +78,16 @@ Script em Python para leitura, sanitização e unificação automatizada de múl
 ### 🧪 Como Executar:
 ```bash
 py analisador_csv.py
+---
+
+## 🛡️ Projeto 8: Detector de Outliers e Anomalias (`detector_outliers.py`)
+
+Script em Python voltado para validação de integridade de dados e auditoria de vendas, separando registros incoerentes de forma automatizada.
+
+### 🎯 Funcionalidades:
+- Identificação de anomalias numéricas (valores negativos e picos fora do padrão).
+- Separação de dados limpos e exportação automática do arquivo de auditoria (`anomalias_detectadas.csv`).
+
+### 🧪 Como Executar:
+```bash
+py detector_outliers.py
