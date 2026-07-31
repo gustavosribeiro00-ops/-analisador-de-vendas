@@ -41,6 +41,7 @@ Script em Python para leitura e agregação automatizada de dados de faturamento
 ### 🎯 Funcionalidades:
 - Leitura dinâmica de tabelas `.csv` com a biblioteca nativa `csv`.
 - Agrupamento e soma acumulada do faturamento por categoria de produto.
+
 ---
 
 ## 📈 Projeto 5: Processador de KPIs com Tratamento de Erros (`gerador_kpis.py`)
@@ -52,7 +53,17 @@ Script em Python para cálculo automatizado de indicadores estratégicos (KPIs) 
 - Apuração de métricas de negócio: Faturamento Total, Ticket Médio e Categoria Mais Lucrativa.
 - Exportação automatizada dos KPIs estruturados em arquivo `relatorio_kpis.json`.
 
-### 🧪 Como Executar:
+---
 
+## 📂 Projeto 7: Consolidador de Dados Multi-Arquivos (`consolidador_vendas.py`)
+
+Script em Python para leitura, sanitização e unificação automatizada de múltiplos relatórios CSV em uma única base de dados consolidada.
+
+### 🎯 Funcionalidades:
+- Processamento em lote de múltiplos arquivos de entrada (`vendas_jan.csv` e `vendas_fev.csv`).
+- Agregação e cálculo de métricas acumuladas do período.
+- Exportação da base unificada para `vendas_consolidadas.csv`.
+
+### 🧪 Como Executar:
 ```bash
 py analisador_csv.py
