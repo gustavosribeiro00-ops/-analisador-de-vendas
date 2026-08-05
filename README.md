@@ -91,3 +91,17 @@ Script em Python voltado para validação de integridade de dados e auditoria de
 ### 🧪 Como Executar:
 ```bash
 py detector_outliers.py
+---
+
+## 📈 Projeto 9: Comparador de Crescimento de Vendas (`comparador_vendas.py`)
+
+Script em Python voltado para inteligência de negócios e análise *Month-over-Month* (MoM), calculando a taxa de crescimento percentual de faturamento entre dois meses consecutivos.
+
+### 🎯 Funcionalidades:
+- Leitura comparativa e consolidação de relatórios mensais (`vendas_jan.csv` e `vendas_fev.csv`).
+- Cálculo automatizado da taxa de variação percentual (%) de desempenho.
+- Classificação dinâmica do status comercial (🚀 Crescimento, 🔻 Queda ou ➡️ Estagnação).
+
+### 🧪 Como Executar:
+```bash
+py comparador_vendas.py
