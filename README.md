@@ -105,3 +105,17 @@ Script em Python voltado para inteligência de negócios e análise *Month-over-
 ### 🧪 Como Executar:
 ```bash
 py comparador_vendas.py
+---
+
+## 📊 Projeto 10: Agrupador e Relatório por Categoria (`relatorio_categorias.py`)
+
+Script em Python para sumarização de receita por segmento comercial e identificação dinâmica da categoria líder de vendas.
+
+### 🎯 Funcionalidades:
+- Agregação e acúmulo de faturamento por categoria utilizando dicionários em Python.
+- Leitura automatizada da base consolidada (`vendas_consolidadas.csv`).
+- Detecção automatizada do segmento com maior faturamento acumulado.
+
+### 🧪 Como Executar:
+```bash
+py relatorio_categorias.py
