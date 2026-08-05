@@ -62,7 +62,7 @@ Script em Python para cálculo automatizado de indicadores estratégicos (KPIs) 
 - Exportação automatizada dos KPIs estruturados em arquivo `relatorio_kpis.json`.
 ### 🧪 Como Executar:
 ```bash
-py
+py gerador_kpis.py
 
 ---
 
@@ -77,7 +77,7 @@ Script em Python para leitura, sanitização e unificação automatizada de múl
 
 ### 🧪 Como Executar:
 ```bash
-py analisador_csv.py
+py consolidador_vendas.py
 ---
 
 ## 🛡️ Projeto 8: Detector de Outliers e Anomalias (`detector_outliers.py`)
